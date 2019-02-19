@@ -1,0 +1,4 @@
+[PROXY]
+USE_PROXY = false
+HTTP  = http://username:password@url:port
+HTTPS = http://username:password@url:port

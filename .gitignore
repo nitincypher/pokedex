@@ -1,0 +1,7 @@
+data/config.ini
+data/images
+data/poke_images
+train/plot.png
+labels.txt
+lb.pickle
+poke-model.model
