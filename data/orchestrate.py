@@ -1,4 +1,3 @@
-
 import os
 import logging
 
@@ -16,7 +15,7 @@ if __name__ == "__main__":
 
     ## Make PokeBatches
     n = 5
-    text_file = open("./list.txt", "r")
+    text_file = open("./listnew.txt", "r")
     lines = text_file.readlines()
     x = list(divide_chunks(lines, n))
     index = 0 
