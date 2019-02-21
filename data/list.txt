@@ -118,7 +118,7 @@ Goldeen
 Seaking
 Staryu
 Starmie
-Mr. Mime
+Mr Mime
 Scyther
 Jynx
 Electabuzz
@@ -435,7 +435,7 @@ Skuntank
 Bronzor
 Bronzong
 Bonsly
-Mime Jr.
+Mime Jr
 Happiny
 Chatot
 Spiritomb
@@ -768,7 +768,6 @@ Golisopod
 Sandygast
 Palossand
 Pyukumuku
-Type: Null
 Silvally
 Minior
 Komala

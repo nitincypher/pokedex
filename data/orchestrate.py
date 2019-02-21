@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     ## Make PokeBatches
     n = 5
-    text_file = open("./listnew.txt", "r")
+    text_file = open("./list.txt", "r")
     lines = text_file.readlines()
     x = list(divide_chunks(lines, n))
     index = 0 
@@ -28,7 +28,10 @@ if __name__ == "__main__":
     ## Run BingImageDownloader for each Pokebatch
     try:
         for i in range(0, index-1):
-            os.system("python image_download.py -f ./tmp/pokebatch" + str(i) + ".txt --limit 50")
+            try:
+                os.system("python image_download.py -f ./tmp/pokebatch" + str(i) + ".txt --limit 50")
+            except:
+                print('Some Exception')
     except:
         print('Some Exception')
     finally:
